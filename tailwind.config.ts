@@ -52,6 +52,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom conservation theme colors
+				forest: {
+					primary: 'hsl(var(--forest-primary))',
+					secondary: 'hsl(var(--forest-secondary))'
+				},
+				earth: {
+					warm: 'hsl(var(--earth-warm))',
+					neutral: 'hsl(var(--earth-neutral))'
+				},
+				nature: {
+					light: 'hsl(var(--nature-light))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
