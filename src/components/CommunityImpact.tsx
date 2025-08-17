@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, CheckCircle } from "lucide-react";
-import communityHealth from "@/assets/community-health.jpg";
+import communityHealth from "@/assets/health-education-community.jpg";
 
 const CommunityImpact = () => {
   const impacts = [
@@ -49,6 +49,7 @@ const CommunityImpact = () => {
                   alt="Community health workers in action"
                   className="w-full h-96 object-cover"
                 />
+
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-foreground mb-2">
                     Health Workers Making a Difference

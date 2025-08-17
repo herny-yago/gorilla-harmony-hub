@@ -1,6 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import conservationTeamwork from "@/assets/conservation-teamwork.jpg";
+import conservationTeamwork from "@/assets/field 2.jpg";
+import usInField from "@/assets/us-in-field.jpg";
+import traineesGorilla from "@/assets/trainees-gorilla.jpg"
+import localFamilies from "@/assets/local-families.jpeg"
 
 const Approach = () => {
   const steps = [
@@ -64,17 +67,32 @@ const Approach = () => {
             ))}
           </div>
           
-          <div className="relative">
-            <Card className="border-none shadow-nature overflow-hidden">
-              <CardContent className="p-0">
-                <img 
-                  src={conservationTeamwork} 
-                  alt="Conservation team working with local community"
-                  className="w-full h-[600px] object-cover"
-                />
-              </CardContent>
-            </Card>
-          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <img
+    src={conservationTeamwork}
+    alt="Conservation team working with local community"
+    className="w-full h-96 object-cover rounded-xl shadow-lg"
+  />
+  <img
+    src={usInField}
+    alt="Community training session in field"
+    className="w-full h-96 object-cover rounded-xl shadow-lg"
+  />
+   <img
+    src={traineesGorilla}
+    alt="Community training about Gorilla"
+    className="w-full h-96 object-cover rounded-xl shadow-lg"
+  />
+   <img
+    src={localFamilies}
+    alt="Engaging with local families"
+    className="w-full h-96 object-cover rounded-xl shadow-lg"
+  />
+  <h1 className="mt-2 text-center text-muted-foreground font-medium">
+      Conservation Team Working with Community People
+    </h1>
+</div>
+
         </div>
       </div>
     </section>

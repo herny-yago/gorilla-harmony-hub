@@ -78,7 +78,7 @@ const GetInvolved = () => {
                 </div>
                 <div>
                   <div className="font-semibold">Email Us</div>
-                  <div className="opacity-80">info@gorillahealth.org</div>
+                  <div className="opacity-80">skizza912@gmail.com</div>
                 </div>
               </div>
               
@@ -87,8 +87,8 @@ const GetInvolved = () => {
                   <Phone className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <div className="font-semibold">Call Us</div>
-                  <div className="opacity-80">+1 (555) 123-4567</div>
+                  <div className="font-semibold">Call / WhatsApp Us</div>
+                  <div className="opacity-80">+256 752 518 402</div>
                 </div>
               </div>
               
@@ -98,7 +98,7 @@ const GetInvolved = () => {
                 </div>
                 <div>
                   <div className="font-semibold">Visit Us</div>
-                  <div className="opacity-80">123 Conservation Ave, City, Country</div>
+                  <div className="opacity-80">Conservationist, Kampala, Uganda</div>
                 </div>
               </div>
             </div>

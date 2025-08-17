@@ -12,7 +12,14 @@ const Mission = () => {
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             We recognize that gorilla conservation cannot succeed without addressing the health 
             and wellbeing of the communities that share their habitat. Our integrated approach 
-            creates sustainable solutions for both wildlife and people.
+            creates sustainable and long term solutions for both wildlife and local people.
+            <br />
+            We need to promote and expand a sustainable, community-driven model that safeguards gorillas,
+            humans, and livestock through a One Health approach. Unlike fragmented individual efforts in 
+            the past, we have united wardens, rangers, health workers, and local communities to promote
+            hygiene, behavioral change, and cultural integration in conservation. Our work builds long-term 
+            resilience by shifting conservation from isolated interventions to a shared local responsibility 
+            grounded in health, culture, and environmental stewardship.
           </p>
         </div>
         
